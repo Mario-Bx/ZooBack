@@ -82,7 +82,7 @@ public class RazaSv {
 
         objetoFH = new RazaFh();
         Raza objetoCLS = new Raza();
-
+        objetoCLS.setID_Raza(0);objetoDto.getID_Raza();
         objetoCLS.setImagen(objetoDto.getImagen());
         objetoCLS.setNombre(objetoDto.getNombre());
         objetoCLS.setEnergia(objetoDto.getEnergia());
